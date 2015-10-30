@@ -2,7 +2,7 @@
 ##steps to execute
   1. clone the git cucumber repo
     ``` git clone https://github.com/redhatgrsenthil/git_cucumber.git ```
-  2. clone the test git repo to verify the git script with cucumber -    ```https://github.com/redhatgrsenthil/test.git</b>```
+  2. clone the test git repo to verify the git script with cucumber -    ```git clone https://github.com/redhatgrsenthil/test.git```
   3. ```cd git_cucumber```
   4. run the command  ```cucumber features/devopstest.feature```
 
@@ -14,12 +14,13 @@ The file structure would be
 <pre>
 .
 ├── git_cucumber
-│   ├── devopstest.feature
+│   ├── features
+│   │   ├── devopstest.feature
+│   │   └── step_definitions
+│   │       └── devopstest.step.rb
 │   ├── README.md
-│   └── step_definitions
-│       └── devopstest.step.rb
-├── scripts
-│   └── createfeaturebranch.rb
+│   └── scripts
+│       └── createfeaturebranch.rb
 └── test
     ├── branch1.txt
     ├── branch2.txt
@@ -28,8 +29,8 @@ The file structure would be
     ├── devopstest.step.rb
     └── test.txt
 
-<pre>
+</pre>
 
 <br><b>Reference</b>  
-1. http://rspec.info/blog/2012/06/rspecs-new-expectation-syntax/
-2. http://rspec.info/documentation/3.1/rspec-expectations/
+``` 1. http://rspec.info/blog/2012/06/rspecs-new-expectation-syntax/
+    2. http://rspec.info/documentation/3.1/rspec-expectations/```

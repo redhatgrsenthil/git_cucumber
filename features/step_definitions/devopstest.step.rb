@@ -1,7 +1,7 @@
 
 require_relative "./../../scripts/createfeaturebranch.rb"
 Given(/^the createFeatureBranchFromDevelop Object$/) do
-  Obj=CreateFeatureBranchFromDevelop.new("C:\\Users\\sgundepa\\Desktop\\Work\\cucumber\\KT-Demo\\","feature1")
+  Obj=CreateFeatureBranchFromDevelop.new("C:\\Users\\sgundepa\\Desktop\\Work\\cucumber\\test\\","feature1")
 end
 
 When(/^the user called the 'checkoutBranch' function with 'devlop' as param$/) do

@@ -32,5 +32,6 @@ The file structure would be
 </pre>
 
 <br><b>Reference</b>  
-``` 1. http://rspec.info/blog/2012/06/rspecs-new-expectation-syntax/
-    2. http://rspec.info/documentation/3.1/rspec-expectations/```
+
+ 1. http://rspec.info/blog/2012/06/rspecs-new-expectation-syntax/
+ 2. http://rspec.info/documentation/3.1/rspec-expectations/
